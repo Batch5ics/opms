@@ -1,0 +1,166 @@
+*{
+  box-sizing: border-box;
+margin:0;
+padding:0;
+list-style:none;
+font-family:'Josefin Sans',sans-serif;
+}
+body{
+
+background-color:#F1F1F1;
+    background-image: url(img1.jpg);
+background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size :100% 100%;
+background-position:center;
+}
+nav
+{
+color:white;
+}
+
+#titles{
+  width: 100%;
+  height: 4%;
+  text-align: right;
+  margin: auto;
+  overflow: auto;
+}
+b{
+  text-align: right;
+  padding-right: 0;
+  font-size: 20px;
+  color: white;
+}
+h1{
+  padding-right: 38%;
+  color:black;
+}
+.wrapper
+{
+margin:10px;
+boder:15px;
+position:absolute;
+top:65%;
+left:40%;
+transform:translate(-50%,-50%);
+width:650px;
+display:left;
+box shadow:0 1px 10px 0 rgba(69,90,100,0.08)
+}
+.wrapper .left{
+width:95px;
+background:white;
+padding:90px 250px;
+border-top-left-radius:2px;
+border-bottom-left-radius:2px;
+text-align:center;
+color:black;
+padding-left:5%;
+}
+.wrapper .left h4{
+margin-bottom:2px;
+}
+.wrapper .left p{
+font size:12px;
+}
+.wrapper .right{
+width:65px;
+border-top-right-radius:5px;
+border-bottom-right-radius:5px;
+padding:30px 95px;
+}
+.wrapper .right .info,
+.wrapper.right  .data{
+margin-bottom:20px;
+}
+.wrapper .right .info h3,
+.wrapper.right  .data h3{
+margin-bottom:15px;
+padding-bottom:30px;
+border-bottom:2px solid#e0e0e0;
+color:#353c4e;
+text-transform:uppercase;
+letter-spacing:2px;
+}
+.wrapper .right .info_data ,
+.wrapper.right .details_data {
+display:flex;
+justify-content:space-between;
+}
+.wrapper .right .info_data.data h4,
+.wrapper.right  .details_data.data h4{
+color:#353c4e;
+margin-bottom:5px;
+}
+.wrapper .right .info_data.data p,
+.wrapper.right  .details_data.data p{
+font-size:13px;
+margin bottom:10px;
+color:#919aa3;
+justify-content:space-between;
+}
+#requests{
+width:45px
+
+padding-left:5%;
+}
+#view
+{
+width:45px
+
+padding-left:4%;
+}
+#update
+{
+width:45px
+padding-left:3%;
+}
+h2{
+  color:black;
+}
+b{
+  text-align: right;
+  padding-right: 0;
+  font-size: 20px;
+  color: white;
+}
+form{
+  padding-left:35%;
+  padding-top: 20px;
+    width: 1200px;
+     margin: auto;
+     overflow: auto;
+}
+#images{
+  margin: 20px;
+  border: 1px solid black;
+  background-color: white;
+  float: right;
+  width: 250px;
+  color: black;
+}
+img{
+padding: 10px;
+width: 250px;
+height: 240px;
+text-align: center;
+}
+#fon{
+  margin: 1px;
+  text-align: center;
+  
+}
+h2{
+  color:black;
+}
+select{
+  width: 150px;
+  height: 25px;
+}
+#sys{
+  width: 40px;
+  height: 25px;
+padding-left:2px
+}
+
